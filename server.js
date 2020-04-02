@@ -14,7 +14,7 @@ let PORT = process.env.PORT || 3000 ;
 
 /////////////////////access my files inside the public folder\\\\\\\\\\\\\\\\\\\\
 
-app.use(express.static('./public'))
+app.use(express.static('public'))
 
 //////////////////////listen for calling\\\\\\\\\\\\\\\\\\\\\
 
